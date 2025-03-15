@@ -1,5 +1,5 @@
 # Hyprland-Dots
-Required downloads:
+## Required downloads:
 
 1. Hyprland
 2. Kitty
@@ -19,7 +19,7 @@ Required downloads:
 
 sudo pacman -S hyprland kitty wofi dolphin waybar hyprpaper neovim ttf-jetbrains-mono otf-font-awesome nvidia-open nvidia-utils lib32-nvidia-utils egl-wayland libva-nvidia-driver
 
-Nvidia:
+## Nvidia:
 
 1. Edit /etc/mkinitcpio.conf. In the MODULES array, add the following module names: MODULES=(... nvidia nvidia_modeset nvidia_uvm nvidia_drm ...)
 2. Then, create and edit /etc/modprobe.d/nvidia.conf. Add this line to the file: options nvidia_drm modeset=1 fbdev=1
